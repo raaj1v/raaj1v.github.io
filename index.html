@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajeev Mishra - Machine Learning Engineer</title>
+    <style>
+        /* Font Imports */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Esteban&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+        body {
+            font-family: 'Montserrat', sans-serif;
+            /* Default font */
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            /* Dark background */
+            color: #f0f0f0;
+            /* Light text color */
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #1e1e1e;
+            /* Slightly lighter background */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /* Box shadow for container */
+            border-radius: 8px;
+            /* Rounded corners */
+        }
+        
+        h1,
+        h2,
+        h3 {
+            font-family: 'Esteban', serif;
+            /* Esteban font for headings */
+            color: #64ffda;
+            /* Teal headings */
+            margin-bottom: 10px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #333;
+            /* Dark border below each section */
+            padding-bottom: 20px;
+        }
+        
+        .section h2 {
+            font-size: 24px;
+            cursor: pointer;
+            /* Pointer cursor for collapsible headings */
+            position: relative;
+            padding-left: 30px;
+        }
+        
+        .section h2::before {
+            content: '+';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            font-size: 24px;
+            transition: transform 0.3s ease;
+            /* Smooth transition for transform */
+        }
+        
+        .section.active h2::before {
+            transform: rotate(45deg);
+            /* Rotate icon to show active state */
+        }
+        
+        .section-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            /* Smooth transition for max-height */
+        }
+        
+        .section-content p {
+            margin-top: 10px;
+        }
+        
+        .contact-info {
+            font-size: 18px;
+        }
+        
+        .work-experience,
+        .education {
+            margin-top: 20px;
+        }
+        
+        .work-experience article,
+        .education article {
+            margin-bottom: 20px;
+            /* Space between work/education entries */
+        }
+        
+        .work-experience article h3,
+        .education article h3 {
+            color: #64ffda;
+            /* Teal headings for work/education entries */
+            margin-bottom: 5px;
+            /* Space below entry headings */
+        }
+        /* AI Animation */
+        
+        @keyframes floating {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+        
+        .ai-animation {
+            display: inline-block;
+            animation: floating 3s ease-in-out infinite;
+            /* Floating animation */
+        }
+        /* Links and Resources */
+        
+        .resources {
+            margin-top: 20px;
+        }
+        
+        .resources a {
+            color: #64ffda;
+            /* Teal links */
+            text-decoration: none;
+            border-bottom: 1px dashed #64ffda;
+            /* Teal dashed underline */
+            transition: border-bottom 0.3s ease;
+            /* Smooth transition for underline */
+        }
+        
+        .resources a:hover {
+            border-bottom: 1px solid #64ffda;
+            /* Solid underline on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header style="text-align: center; margin-bottom: 30px;">
+            <h1>Rajeev Mishra</h1>
+            <p class="ai-animation">Machine Learning Engineer</p>
+        </header>
+
+        <section class="section">
+            <h2 class="section-title" onclick="toggleSection('about-me')">About Me</h2>
+            <div id="about-me" class="section-content">
+                <p>I am a seasoned Machine Learning Engineer with over 3 years of experience at e-Procurement Technologies Ltd, Ahmedabad, Gujarat. I specialize in developing and deploying machine learning models across various domains, focusing on NLP,
+                    model deployment, and MLOps.</p>
+                <p>My skills include proficiency in PyTorch, TensorFlow, Scikit-Learn, Flask, Elasticsearch, and other frameworks. I have a strong background in deep learning techniques such as CNNs, RNNs, and transformer models, as well as expertise in
+                    natural language processing.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title" onclick="toggleSection('projects')">Projects</h2>
+            <div id="projects" class="section-content">
+                <ul>
+                    <li><strong>NLP-Enhanced Semantic Search:</strong> Implemented Spacy NER for efficient named entity recognition and Elasticsearch for optimized search functionality.</li>
+                    <li><strong>Natural Language Chatbot:</strong> Developed using Langchain and VLLM RAG architecture, enhancing customer service and reducing complaints.</li>
+                    <li><strong>Multi-Label Large Scale TEXT Classification:</strong> Engineered a TextCNN model integrated with the Unicorn API for efficient deployment, reducing workload and improving productivity.</li>
+                    <!-- Add more projects -->
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title" onclick="toggleSection('contact-info')">Contact Information</h2>
+            <div id="contact-info" class="section-content">
+                <p class="contact-info">
+                    Email: imeandrj@gmail.com<br> Phone: +916209303738<br> LinkedIn: <a href="https://www.linkedin.com/in/bitsnbucks">linkedin.com/in/bitsnbucks</a><br> HackerRank: <a href="https://www.hackerrank.com/c0d3r69">hf.co/c0d3r69</a><br> GitHub:
+                    <a href="https://github.com/raaj1v">github.com/raaj1v</a>
+                </p>
+            </div>
+        </section>
+
+        <section class="work-experience section">
+            <h2 class="section-title" onclick="toggleSection('work-exp')">Work Experience</h2>
+            <div id="work-exp" class="section-content">
+                <article>
+                    <h3>Machine Learning Engineer at e-Procurement Technologies Ltd</h3>
+                    <p><strong>NLP-Enhanced Semantic Search:</strong> Implemented Spacy NER and Elasticsearch for enhanced data understanding and search efficiency.</p>
+                    <p><strong>Natural Language Chatbot:</strong> Developed using Langchain and VLLM RAG architecture, resulting in improved customer service and retention rates.</p>
+                    <p><strong>Multi-Label Large Scale TEXT Classification:</strong> Engineered TextCNN models for accurate text classification and integrated Unicorn API for deployment.</p>
+                </article>
+                <article>
+                    <h3>Data Specialist at Infiraise</h3>
+                    <p><strong>Data Scraping and Processing:</strong> Implemented advanced techniques to enhance data quality and accuracy.</p>
+                    <p><strong>Error Reduction:</strong> Implemented quality measures resulting in a 20% increase in data accuracy.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="education section">
+            <h2 class="section-title" onclick="toggleSection('education')">Education</h2>
+            <div id="education" class="section-content">
+                <article>
+                    <h3>Master of Computer Applications - MCA in Machine Learning</h3>
+                    <p>Amity University • 11/2022 - 12/2024</p>
+                </article>
+                <article>
+                    <h3>Bachelor's degree in Mathematics</h3>
+                    <p>Vinoba Bhave University • GPA: A • 01/2017 - 12/2020</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Machine Learning Resources -->
+        <section class="resources section">
+            <h2 class="section-title" onclick="toggleSection('resources')">Useful Machine Learning Resources</h2>
+            <div id="resources" class=" section-content ">
+                <ul>
+                    <li><a href="https://www.tensorflow.org/resources/learn-ml ">TensorFlow Learning Resources</a></li>
+                    <li><a href="https://pytorch.org/tutorials">PyTorch Tutorials</a></li>
+                    <li><a href="https://scikit-learn.org/stable/tutorial/index.html ">Scikit-Learn Tutorial</a></li>
+                    <li><a href="https://www.kaggle.com/learn/overview ">Kaggle Learn</a></li>
+                    <li><a href="https://developers.google.com/machine-learning/crash-course/ml-intro ">Google's Machine Learning Crash Course</a></li>
+                    <li><a href="https://www.deeplearning.ai">DeepLearning.AI</a></li>
+                    <li><a href="https://www.fast.ai">fast.ai</a></li>
+                    <li><a href="https://www.coursera.org/browse/data-science/machine-learning">Coursera Machine Learning Courses</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        function toggleSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            const sectionTitle = document.querySelector(`#${sectionId}.section-title`);
+            if (section.style.maxHeight) {
+                section.style.maxHeight = null;
+                section.classList.remove('active');
+            } else {
+                section.style.maxHeight = section.scrollHeight + "px ";
+                section.classList.add('active');
+            }
+        }
+    </script>
+</body>
+
+</html>
