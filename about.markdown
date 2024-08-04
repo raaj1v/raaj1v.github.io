@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: More of Me
 permalink: /about/
 ---
 
@@ -14,13 +14,29 @@ I began my career with a Master's degree in Computer Applications, specializing 
 ### Why This Blog?
 This blog is a platform where I share my knowledge, insights, and experiences in machine learning and beyond. Here, you'll find detailed tutorials, practical guides, and insightful articles aimed at helping you navigate the ever-evolving landscape of AI and machine learning.
 
-### Interests
-**Finance:** My fascination with finance drives me to explore how machine learning can revolutionize this industry. From algorithmic trading to risk management, I'm constantly learning and experimenting with new techniques to merge these two dynamic fields.
+## Education
 
-**Technology:** As a tech enthusiast, I am always on the lookout for the latest trends and innovations. Whether it's a new programming language, a groundbreaking AI model, or an emerging tech trend, I love diving deep into the technology that shapes our world.
+### Master of Computer Applications - MCA in Machine Learning
 
-**Entrepreneurship:** Entrepreneurship is close to my heart. I believe in the power of innovative ideas and the impact they can have on the world. Through this blog, I aim to inspire and support fellow entrepreneurs who are on their journey to create something meaningful.
+Amity University • 11/2022 - 12/2024
 
+### Bachelor's degree in Mathematics
+
+Vinoba Bhave University • GPA: A • 01/2017 - 12/2020
+
+## Work Experience
+
+### Machine Learning Engineer at e-Procurement Technologies Ltd
+
+- **NLP-Enhanced Semantic Search:** Implemented Spacy NER and Elasticsearch for enhanced data understanding and search efficiency.
+- **Natural Language Chatbot:** Developed using Langchain and VLLM RAG architecture, resulting in improved customer service and retention rates.
+- **Multi-Label Large Scale TEXT Classification:** Engineered TextCNN models for accurate text classification and integrated Unicorn API for deployment.
+
+### Data Specialist at Infiraise
+
+- **Data Scraping and Processing:** Implemented advanced techniques to enhance data quality and accuracy.
+- **Error Reduction:** Implemented quality measures resulting in a 20% increase in data accuracy.
+- 
 ### Join Me
 I invite you to join me on this exciting journey. Let's explore the world of machine learning, finance, and technology together. Whether you're a seasoned professional, a curious learner, or an aspiring entrepreneur, there's something here for you.
 
