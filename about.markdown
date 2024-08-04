@@ -36,7 +36,7 @@ Vinoba Bhave University • GPA: A • 01/2017 - 12/2020
 
 - **Data Scraping and Processing:** Implemented advanced techniques to enhance data quality and accuracy.
 - **Error Reduction:** Implemented quality measures resulting in a 20% increase in data accuracy.
-- 
+
 ### Join Me
 I invite you to join me on this exciting journey. Let's explore the world of machine learning, finance, and technology together. Whether you're a seasoned professional, a curious learner, or an aspiring entrepreneur, there's something here for you.
 
