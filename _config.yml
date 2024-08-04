@@ -26,8 +26,7 @@ email: raaj1v@proton.me
 #   Google search results) and in your feed.xml site description.
 
 description: >-
-  Welcome to my blog, where I explore the fascinating world of machine learning, natural language processing (NLP), MLOps, and large language models (LLMs). Dive into detailed tutorials, insightful articles, and practical guides designed to enhance your understanding and skills in these cutting-edge fields. Join me on a journey to uncover the latest trends, tools, and techniques that are shaping the future of AI and machine learning. Stay curious, stay informed, and let's learn together.
-
+  Explore the world of machine learning, NLP, MLOps, and LLMs through detailed tutorials, insightful articles, and practical guides. Stay curious, stay informed, and join me in uncovering the future of AI.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bitsnbucks
